@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-def draw_line(point_string:  list[list[str]], list_of_points:  list[list[str]]) -> plt:
+def draw_triangle(point_string:  list[list[str]], list_of_points:  list[list[str]]) -> plt:
     """Draws a line based on the three numbers of points in array"""
     point1 = int(point_string[0].split(';')[0])
     point2 = int(point_string[0].split(';')[1])
